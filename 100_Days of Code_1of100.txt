@@ -1,0 +1,96 @@
+#100 days of Code
+Start Date: 20200223 @1200
+learning Python
+>site: https://www.w3schools.com/python/python_getstarted.asp
+
+Install Python
+>installed python from website
+>><x>unsuccessful<x>
+
+>installed python from windows store Python 3.8(32-bit)
+>><+>successfully printed Hello World<+>
+
+File Grab and Run
+>Attempted to run .py file made in notepad++
+>>python hello
+>><x>error location :can't open file 'helloworld.py' no such file in dir<x>
+>attempted to move file to dir and try again
+>>had difficulty finding AppData\Local\Microsoft\WindowsApps
+>>>google search lead me to discover file path is hidden
+>>>><x>saved file w/in python path but still unable to run prog from proper dir<x>
+to be continued...
+
+Continue w/ python 3.8(32-bit) exe
+
+Spacing
+>if 5 > 2:
+print("Five is greater than two!")
+>>kept getting errors not sure what the point of this lesson was
+>>>spacing is important to use?
+
+Python Variables
+x = 5
+y = "Hello, World!"
+
+print(x)
+print(y)
+
+Comments
+>#This is used for comments.
+>
+""" Start of long comments
+COMMENTS....
+
+End of Long Comments """
+
+#Review
+keyword to make var x belong to global scope
+
+def myfunc():
+____ x
+x = "fantastic"
+
+answer:
+>global
+
+Data types:
+
+>5 
+>>Int = Intiger = numbers
+
+>"Hello World" 
+>>str = String = text
+
+>20.5
+>>float = Number w/ decimal
+
+> x= ["apple", "bannana", "cherry"]
+>>list = list of strings
+
+> x= ("apple", "bannana", "cherry")
+>>tuple = ?
+>>>google: coll which is ordered & !B!unchangeable!B! 
+
+"""
+>researched further to discover 4 diff arrays
+>>List, Tuple, Set, Dictionary
+>>>List: ordered, changable, allows dup members
+>>>Tuple: ordered, unchangable, allows dup members
+>>>Set: unordered & unindexed, no dup members
+>>>Dictionary: unordered, changeable, indexed; no dup members
+"""
+
+Set type Dictionary
+
+x = {"name" : "John", "age" : 36}
+print(type(x))
+dict
+>tested in python 3.8
+>> <class 'dict'>
+
+True or False
+x = True
+print(type(x))
+boolean
+
+
